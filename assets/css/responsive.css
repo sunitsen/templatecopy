@@ -1,0 +1,29 @@
+
+  @media only screen and (max-width: 991px) {
+    .project-items{
+      justify-content: left !important;
+      align-items: left;
+      
+    }
+    .project-items li{
+      margin-top: 10px;
+    }
+  }
+
+/*responsive*/
+@media(max-width: 767px){
+    .hero .carousel-control-next, 
+    .hero .carousel-control-prev{
+        display: none;
+    }
+    .hero .carousel-indicators li{
+        height: 60px;
+        width: 60px;
+    }
+    .hero .carousel-item h2{
+        font-size: 45px;
+    }
+    .hero .carousel-item p{
+        font-size: 22px;
+    }
+  }
